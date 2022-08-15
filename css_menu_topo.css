@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 
+:root {
+    --green: #18D860;
+    --dk-green: #149f4a;
+    --black: #323232;
+}
+
 *{
     margin: 0;
     font-size: 12pt;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    color: var(--dk-green);
 }
 
 .layout-flex{
@@ -11,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0.5%;
-    background-color: rgba(26, 25, 25, 0.514);
+    background-color: var(--black);
 }
 
 .layout-flex-alinhamento-itens{
